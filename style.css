@@ -89,3 +89,10 @@ footer p { max-width: 42em; margin-top: 1rem; }
   .essay .axes { float: right; clear: right; margin: 0 0 1rem 2.5rem; }
   .essay::after { content: ""; display: block; clear: both; }
 }
+
+.logo { display: block; margin-bottom: .75rem; line-height: 0; }
+.logo img { width: 2.75rem; height: 2.75rem; }
+@media (min-width: 62rem) {
+  .logo { margin-bottom: 1.25rem; }
+  .logo img { width: 3.5rem; height: 3.5rem; }
+}
