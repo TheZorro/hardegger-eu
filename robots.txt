@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hardegger.eu/sitemap.xml
